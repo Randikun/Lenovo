@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&display=swap");
+
+* {
+    margin-left: 0;
+    margin-right: 0;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+
+* li {
+    list-style: none;
+    margin: 4px;
+}
+
+.line1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    margin: 0 3em 0 3em;
+    cursor: pointer;
+}
+
+.icons li {
+    margin: 0.5em;
+}
+
+.line2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.contOpc2 {
+    width: 60%;
+}
+
+.opc2 {
+    display: flex;
+    font-size: 0.7em;
+    font-family: "Lato-Black";
+    font-weight: bold;
+}
+
+.contSearch {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchInput {
+    width: 80%;
+    height: 2em;
+    border-radius: 5px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.searchIco {
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: -2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.searchIco img {
+    padding: 6px;
+}
+
+.line3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.opc3 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 80%;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100vw;
+    padding: 1em;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #af0e4e 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    border-bottom: 1.5px solid black;
+    font-size: 0.6em;
+}
+
+.bannerInfo {
+    font-weight: lighter;
+}
+
+.shop {
+    margin-left: 1em;
+    text-decoration: underline;
+    margin-right: 0.5em;
+}
+
+.shop:hover {
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555555;
+}
+
+.products ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.products ul li {
+    line-height: 1;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.products ul li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contProduct {
+    margin-top: 2em;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.models {
+    margin: auto;
+    justify-self: center;
+    width: 100%;
+    font-size: 1.5em;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.left-box {
+    padding-right: 1em;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcPrice {
+    display: flex;
+}
+
+.checkbox {
+    margin-left: 0;
+    margin-right: 0.4rem;
+    width: 0.7em;
+    height: 0.7em;
+    background-color: black;
+    padding: 0%;
+    border-radius: 3px;
+}
+
+.listPrice {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    line-height: 1.1;
+    color: #555555;
+    font-size: 0.9em;
+}
+
+.see {
+    margin-top: 1em;
+    font-size: 0.7em;
+    color: #0d5c91;
+    width: 100%;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #bcbcbc;
+    cursor: pointer;
+}
+
+.right-box {
+    width: 80%;
+    height: 100%;
+    margin-left: 1em;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.match {
+    font-size: 0.7em;
+}
+
+.select {
+    border-radius: 5px;
+    border: 1px solid #bcbcbc;
+    width: 30%;
+}
+
+.cards {
+    margin-top: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1em;
+}
+
+.card {
+    padding-top: 1em;
+    padding: 1em 0 1em 1em;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+}
+
+.doorbuster {
+    background-color: #af0200;
+    color: #ffffff;
+    line-height: 1.1;
+    padding: 0.5em;
+    border-radius: 3px;
+    font-size: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.contImg {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imgCard {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.prodName {
+    font-size: 10px;
+    color: #0d5c91;
+    font-weight: 900;
+}
+
+.ecoupon {
+    font-size: 0.5em;
+}
+
+.addCart {
+    width: 85%;
+    line-height: 2;
+    background-color: #0d5c91;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addCart:hover {
+    background-color: #0d5c91d5;
+}
+
+.footer {
+    padding: 1em;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #af0e4e 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    font-size: 0.6em;
+}
+
+.footerInfo {
+    font-weight: lighter;
+}
+
+.panelIco {
+    width: 1em;
+    height: 1em;
+    color: grey;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.ampliarIco {
+    width: 1em;
+    height: 1em;
+    color: grey;
+}
+
+.panel {
+    display: none;
+    left: 0;
+    height: 17%;
+    width: 100%;
+    transition: all 0.2s linear;
+    margin: 0;
+    margin-top: 10em;
+    position: fixed;
+    padding: 1em;
+    padding-bottom: 0.5em;
+    background-color: #ffffff;
+}
+
+.panelContent {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+}
+
+.sections {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -2em;
+}
+
+.sections li {
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 0;
+    margin: 0.4em;
+    margin-bottom: 0.6em;
+}
+
+.sections li:hover {
+    text-decoration: underline;
+}
+
+.panel2 {
+    display: none;
+
+    transition: all 0.2s linear;
+    width: 100%;
+}
+
+.panel2Content {
+    display: flex;
+    flex-direction: column;
+    color: #555555;
+    margin-right: 0;
+    font-size: 00.7em;
+}
+
+.panel2Content li {
+    margin-bottom: 0.4em;
+    cursor: pointer;
+}
+
+.panel2Content li:hover {
+    text-decoration: underline;
+}
+
+.show {
+    display: flex;
+}
+
+@media screen and (min-width: 750px) {
+    .panelIco {
+        display: none;
+    }
+
+    .ampliarIco {
+        display: none;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .line2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contOpc2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contSearch {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .searchInput {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 965px) {
+    .opc3 {
+        font-size: 0.5em;
+    }
+
+    .select {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 840px) {
+    .products ul li {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+    .line3 {
+        display: none;
+    }
+
+    .products {
+        display: none;
+    }
+
+    .match {
+        font-size: 0.3em;
+    }
+
+    .select {
+        width: 90%;
+    }
+
+    .icons {
+        display: flex;
+        margin: 0;
+    }
+
+    .box {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 440px) {
+    .opc2 {
+        font-size: 0.4em;
+    }
+
+    .left-box {
+        width: 30%;
+    }
+
+    .checkbox {
+        margin-left: 0;
+        margin-right: 0.4rem;
+        width: 0.4em;
+        height: 0.4em;
+        background-color: black;
+        padding: 0%;
+        border-radius: 1px;
+    }
+
+    .listPrice {
+        font-size: 0.5em;
+        line-height: 1.6;
+    }
+
+    .icons {
+        font-size: 00.6em;
+    }
+}
