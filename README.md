@@ -12,20 +12,21 @@ c.	Desktop: from 1024px
 4)	Feel free to add any dynamism via JavaScript. It is not necessary but it’s an extra that will earn you some points. 😊
 
 This are my results! 
-<img src="utils/bigview2.png" alt="Logo">
+
+![Landing](https://github.com/Randikun/Lenovo/blob/main/LP/utils/bigview2.png "Landing Page")
 
 This is the view for tablets
 
-<img src="utils/tabletView.png" alt="Logo">
+![Landing](https://github.com/Randikun/Lenovo/blob/main/LP/utils/tabletView.png "tablet view")
+
 
 and this is the one for mobile devices
-<img src="utils/phoneview.png" alt="Logo">
-<img src="utils\phoneViewOpenedPanels.png" alt="Logo">
+
+
+![Landing](https://github.com/Randikun/Lenovo/blob/main/LP/utils/phoneview.png "Phone view")
+
+![Landing](https://github.com/Randikun/Lenovo/blob/main/LP/utils/phoneViewOpenedPanels.png "Phone view with opened panels")
 
 
 
-![alt text](https://github.com/Randikun/Lenovo/blob/main/image.jpg?raw=true)
 
-![alt text](https://github.com/Randikun/Lenovo/blob/main/image.jpg?raw=true)
-
-![alt text](https://github.com/Randikun/Lenovo/blob/main/image.jpg?raw=true)
