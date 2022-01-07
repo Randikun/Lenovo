@@ -13,19 +13,19 @@ c.	Desktop: from 1024px
 
 This are my results! 
 
-![Landing](https://github.com/Randikun/Lenovo/blob/main/LP/utils/bigview2.png "Landing Page")
+![Landing](https://github.com/Randikun/Lenovo/blob/main/LenovoChallenge/LP/utils/bigview2.png "Landing Page")
 
 This is the view for tablets
 
-![Landing](https://github.com/Randikun/Lenovo/blob/main/LP/utils/tabletView.png "tablet view")
+![Landing](https://github.com/Randikun/Lenovo/blob/main/LenovoChallenge/LP/utils/tabletView.png "tablet view")
 
 
 and this is the one for mobile devices
 
 
-![Landing](https://github.com/Randikun/Lenovo/blob/main/LP/utils/phoneview.png "Phone view")
+![Landing](https://github.com/Randikun/Lenovo/blob/main/LenovoChallenge/LP/utils/phoneview.png "Phone view")
 
-![Landing](https://github.com/Randikun/Lenovo/blob/main/LP/utils/phoneViewOpenedPanels.png "Phone view with opened panels")
+![Landing](https://github.com/Randikun/Lenovo/blob/main/LenovoChallenge/LP/utils/phoneViewOpenedPanels.png "Phone view with opened panels")
 
 
 
