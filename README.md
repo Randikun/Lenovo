@@ -15,12 +15,15 @@ This are my results!
 
 ![Landing](https://github.com/Randikun/Lenovo/blob/main/LenovoChallenge/LP/utils/bigview2.png "Landing Page")
 
-This is the view for tablets
+This is the view for tablets, the main change here is the repositioning of the search bar, and some size adjustments
 
 ![Landing](https://github.com/Randikun/Lenovo/blob/main/LenovoChallenge/LP/utils/tabletView.png "tablet view")
 
 
-and this is the one for mobile devices
+and this is the one for mobile devices.
+
+In the mobile view I decided to hide the options within a drop-down panel,this is displayed by clicking the 2-line icon . Also those  "product" options, the panel is displayed by clicking the arrow next to Models, in this case, (it would be the option that the user chooses), this to take advantage of the screen to show the product itself, which is the important thing in this LP. The search bar remains on an individual line.
+
 
 
 ![Landing](https://github.com/Randikun/Lenovo/blob/main/LenovoChallenge/LP/utils/phoneview.png "Phone view")
