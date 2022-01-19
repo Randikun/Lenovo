@@ -311,7 +311,7 @@
     background-color: #0d5c91d5;
 }
 
-.footer {
+.banner2 {
     padding: 1em;
     margin-top: 1rem;
     display: flex;
@@ -323,7 +323,7 @@
     font-size: 0.6em;
 }
 
-.footerInfo {
+.banner2Info {
     font-weight: lighter;
 }
 
@@ -502,15 +502,12 @@
     }
 
     .checkbox {
-        margin-left: 0;
-        margin-right: 0.4rem;
         width: 0.4em;
         height: 0.4em;
-        background-color: black;
-        padding: 0%;
         border-radius: 1px;
     }
 
+ 
     .listPrice {
         font-size: 0.5em;
         line-height: 1.6;

@@ -1,20 +1,26 @@
 window.addEventListener("resize", panels);
 
-let counter=0
+let counter = 0
+
+function showPanel(panel) {
+    if (!panel.classList.contains("show")) panel.classList.add('show');
+    else panel.classList.remove("show")
+}
 
 function panels() {
     var width = document.documentElement.clientWidth;
-   
+
+
     if (width < 750 && width > 320) {
         counter++
-        if(counter===1){
-            
+        if (counter === 1) {
+
             var ico = document.createElement('img');
             ico.src = "./utils/PanelLine.svg";
             ico.classList.add('panelIco');
             const cont2 = document.querySelector(".contOpc2")
             cont2.appendChild(ico)
-            cont2.style.flexDirection="column"
+            cont2.style.flexDirection = "column"
 
             var arrow = document.createElement('img');
             arrow.src = "./utils/ampliar.png";
@@ -23,25 +29,17 @@ function panels() {
             models.appendChild(arrow)
 
 
+            var panel1 = document.querySelector('.panel')
 
-            ico.addEventListener('click', showPanel)
-            function showPanel(){
-                var panel = document.querySelector('.panel')
-                if(!panel.classList.contains("show"))panel.classList.add('show');
-                else panel.classList.remove("show")
-        
+            ico.onclick = function () {
+                showPanel(panel1)
             }
 
-            arrow.addEventListener('click', showPanel2)
-            function showPanel2(){
-                var panel2 = document.querySelector('.panel2')
-                if(!panel2.classList.contains("show"))panel2.classList.add('show');
-                else panel2.classList.remove("show")
-         
-            }
+            var panel2 = document.querySelector('.panel2')
 
-           
+            arrow.onclick = function () {
+                showPanel(panel2)
+            }
+        }
     }
-           
-}
 }
